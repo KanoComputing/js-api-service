@@ -89,4 +89,4 @@ Contributions are welcome as long as documented and tested.
 
 ## License
 
-Copyright (c) 2014 Kano Computing Ltd. - Released under the [MIT license](https://github.com/KanoComputing/js-api-resource/blob/master/LICENSE)
+Copyright (c) 2014 Kano Computing Ltd. - Released under the [MIT license](https://github.com/KanoComputing/js-api-service/blob/master/LICENSE)
