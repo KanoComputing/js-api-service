@@ -81,8 +81,8 @@ The events propagated by this class are documented in the [Resource](https://git
 
 #### Methods
 
-`.add(namespace, [ options ])` Add an endpoint to the service. This will be an instance of [Resource](https://github.com/KanoComputing/js-api-resource) pass the options to its constructor
-`.use(middleware)` Add a middleware function to the resource. The function will be called on the `Resource` instance and receive as arguments the `XMLHttpRequest` request instance and the `next` function to proceed.
+* `.add(namespace, [ options ])` Add an endpoint to the service. This will be an instance of [Resource](https://github.com/KanoComputing/js-api-resource) pass the options to its constructor
+* `.use(middleware)` Add a middleware function to the resource. The function will be called on the `Resource` instance and receive as arguments the `XMLHttpRequest` request instance and the `next` function to proceed.
 
 ## Test
 
