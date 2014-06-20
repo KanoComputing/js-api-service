@@ -60,6 +60,7 @@ myApiWrapper.posts.save({ id: 'some_id' })
 }, function (res) {
    var error = res.body;
 });
+```
 
 ## Service
 
