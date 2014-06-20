@@ -1,6 +1,6 @@
 ## API Service
 
-> Simple http service / api promised wrapper for client-side JavaScript or Node.js. This class helps you creating collections of [api-resources](https://github.com/KanoComputing/js-api-resource) with an intuitive and simple api.
+> Simple http service / api wrapper for client-side JavaScript or Node.js. This class helps you creating collections of [api-resources](https://github.com/KanoComputing/js-api-resource) with an intuitive and simple api.
 
 ## Setup
 
