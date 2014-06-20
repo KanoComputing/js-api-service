@@ -1,7 +1,7 @@
 {
   "name": "api-service",
   "version": "0.0.1",
-  "description": "Simple http service promised wrapper for client-side JavaScript or Node.js",
+  "description": "Simple http service wrapper for client-side JavaScript or Node.js",
   "main": "lib/Service.js",
   "scripts": {
     "test": "mocha test"
