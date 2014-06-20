@@ -7,7 +7,7 @@
     "test": "mocha test"
   },
   "author": "Tancredi Trugenberger",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "api-resource": "0.0.x",
     "eventemitter2": "^0.4.x"
