@@ -1,6 +1,6 @@
 {
   "name": "api-service",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simple http service promised wrapper for client-side JavaScript or Node.js",
   "main": "lib/Service.js",
   "scripts": {
@@ -11,6 +11,10 @@
   "dependencies": {
     "api-resource": "0.0.x",
     "eventemitter2": "^0.4.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:KanoComputing/js-api-service.git"
   },
   "devDependencies": {
     "async": "^0.9.0",
