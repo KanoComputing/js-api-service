@@ -14,16 +14,16 @@ var Service = require('api-service');
 var myApiWrapper = new Service('http://localhost/api')
 
     // Add users endpoints
-    .add('users.list', { method: 'get', route: 'users' })
-    .add('users.signup', { method: 'post', route: 'users/signup' })
-    .add('users.get.byId', { method: 'get', route: 'users/:id' })
-    .add('users.get.byUsername', { method: 'get', route: 'users/username/:username' })
+    .add('users.list', { method: 'get', route: '/users' })
+    .add('users.signup', { method: 'post', route: '/users/signup' })
+    .add('users.get.byId', { method: 'get', route: '/users/:id' })
+    .add('users.get.byUsername', { method: 'get', route: '/users/username/:username' })
 
     // Add posts endpoints
-    .add('posts.save', { method: 'post', route: 'posts' })
-    .add('posts.list', { method: 'get', route: 'posts' })
-    .add('posts.get.byId', { method: 'get', route: 'posts/:id' })
-    .add('posts.delete', { method: 'delete', route: 'posts/:id' })
+    .add('posts.save', { method: 'post', route: '/posts' })
+    .add('posts.list', { method: 'get', route: '/posts' })
+    .add('posts.get.byId', { method: 'get', route: '/posts/:id' })
+    .add('posts.delete', { method: 'delete', route: '/posts/:id' })
 
     // Add a middleware function that adds authorization headers to request
     .use(function (req, next) {
