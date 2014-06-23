@@ -25,7 +25,7 @@ var myApiWrapper = new Service('http://localhost/api')
     .add('posts.get.byId', { method: 'get', route: '/posts/:id' })
     .add('posts.delete', { method: 'delete', route: '/posts/:id' })
 
-    // Add a middleware function that adds authorization headers to request
+    // Add a middleware function that sets authorization header to request
     .use(function (req, next) {
         if (token) {
             req.setRequestHeader('Authorization', token);
