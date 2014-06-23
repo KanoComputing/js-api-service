@@ -1,6 +1,6 @@
 {
   "name": "api-service",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple http service wrapper for client-side JavaScript or Node.js",
   "main": "lib/Service.js",
   "scripts": {
