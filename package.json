@@ -1,6 +1,6 @@
 {
   "name": "api-service",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Simple http service wrapper for client-side JavaScript or Node.js",
   "main": "lib/Service.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "api-resource": "0.0.x",
-    "tiny-emitter": "^0.1.x"
+    "eventemitter2": "^0.4.x"
   },
   "repository": {
     "type": "git",
