@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "api-resource": "0.0.x",
-    "eventemitter2": "^0.4.x"
+    "tiny-emitter": "^0.1.x"
   },
   "repository": {
     "type": "git",

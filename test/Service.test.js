@@ -112,27 +112,4 @@ describe('Resouce - server', function() {
         ], done);
     });
 
-    it('correctly bubbles up resources events', function (done) {
-        var service = new Service('http://localhost:4567')
-            .add('list', { method: 'get' });
-
-        service.once('response', function (res) {
-            res.status.should.equal(200);
-
-            service.once('success', function (res, resource) {
-                res.status.should.equal(200);
-
-                resource.method.should.equal('get');
-                resource.route.should.equal('http://localhost:4567');
-
-                done();
-            });
-
-            service.list();
-        });
-
-        service.list();
-
-    });
-
 });
