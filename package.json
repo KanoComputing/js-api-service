@@ -1,6 +1,6 @@
 {
   "name": "api-service",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple http service wrapper for client-side JavaScript or Node.js",
   "main": "lib/Service.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "Tancredi Trugenberger",
   "license": "MIT",
   "dependencies": {
-    "api-resource": "1.0.7",
+    "api-resource": "1.0.8",
     "eventemitter2": "^0.4.x"
   },
   "repository": {
